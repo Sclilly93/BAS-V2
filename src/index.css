@@ -411,7 +411,7 @@ gap: 10px;
 }
 }
 .span-stats-container {
-align-items: start;
+align-items: flex-start;
 display: flex;
 flex-direction: column;
 margin-top: -15px;
@@ -626,7 +626,7 @@ flex-direction: column;
     height: 480px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: start;
+    flex: flex-start;
 
 }
 @media (max-width: 900px) {
@@ -668,7 +668,7 @@ flex-direction: column;
     }
     }
 .card > .row > .icon {
-    background:  rgba(240, 162, 44, 0.911);
+    background:  rgb(223, 109, 44);
     color: rgb(255, 255, 255);
     border-radius: 50%;
     width: 50px;
@@ -950,3 +950,61 @@ height: 1px;
     margin-top: 50px;
 }
 }
+
+.container-network {
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0b0c;
+    display: flex;
+    padding: 28px 60px;
+  }
+  .content-wrapper-network {
+    width: 1152px;
+    max-width: 100%;
+  }
+  .deployment-info-network {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .deployment-description-network,
+  .deployment-platforms-network {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+  }
+  .article {
+    display: flex;
+    justify-content: space-around;
+  }
+  .description-text-network {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter, sans-serif;
+  }
+  .platform-button-network {
+    border-radius: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #111113;
+    padding: 15px 25px;
+  }
+  .platform-icon-network {
+    width: 48px;
+    aspect-ratio: 1;
+    
+  }
+  .platform-name-network {
+    color: #fff;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+  }
+  .visually-hidden-network {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
